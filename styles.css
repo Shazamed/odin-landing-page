@@ -147,6 +147,7 @@ a {
     border: 3px rgb(0, 0, 0) solid;
     border-radius: 32px;
     align-items: center;
+    padding-right: 0;
 }
 
 .button-description {
