@@ -35,6 +35,7 @@ a {
 
 .main-box {
     display: flex;
+    flex-wrap: wrap;
     padding: 16px 100px 100px 100px;
     gap: 80px;
     background-color: rgb(69, 43, 83);
@@ -87,6 +88,7 @@ a {
 .image-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
@@ -147,7 +149,7 @@ a {
     border: 3px rgb(0, 0, 0) solid;
     border-radius: 32px;
     align-items: center;
-    padding-right: 0;
+    flex-wrap: wrap;
 }
 
 .button-description {
